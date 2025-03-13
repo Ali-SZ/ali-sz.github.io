@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Samadzadeh - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0d0d0d;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 25px;
+            object-fit: cover;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        p {
+            margin: 10px 0 30px;
+            font-size: 1.2rem;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-top: 20px;
+        }
+
+        .links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+            gap: 10px;
+            margin: 4px;
+            padding: 14px;
+            border: 2px solid #d3d3d3;
+            border-radius: 10px;
+            transition: padding 0.3s, margin 0.3s;
+        }
+
+        .links img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .links a:hover {
+            padding: 18px;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://avatars.githubusercontent.com/u/60919180?v=4" alt="Profile Picture" class="profile-pic">
+        <h1>Ali Samadzadeh</h1>
+        <p>Software Developer | Qt</p>
+        <div class="links">
+            <a href="https://github.com/ali-sz" target="_blank">
+                <img src="icons/github-mark-white.svg" alt="GitHub">
+                github.com/ali-sz
+            </a>
+            <a href="mailto:ali_sz_dev@proton.me">
+                <img src="icons/email.svg" alt="Email">
+                ali_sz_dev@proton.me
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
